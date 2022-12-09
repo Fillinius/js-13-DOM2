@@ -56,7 +56,10 @@ const task = tasks.map((task, id)=>{
 </div>`
 )
 })
+const main = document.querySelector('.tasks-list')
+main.innerHTML = task
 
+/*
 let div1 = document.createElement('div')
 div2 = document.createElement('div')
 div3 = document.createElement('div')
@@ -86,3 +89,4 @@ form.append(input, " ", label)
 div3.append(form, '', span)
 div2.append(div3, '', button)
 div1.append(div2)
+*/
